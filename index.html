@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto com HTML</title>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Biografia</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <h1>Contato</h1>
+        </div>
+
+        <form action="">
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu melhor e-mail">
+            </div>
+
+            <div>
+                <label for="email">E-mail com valor padrão: </label>
+                <input type="email" name="email" id="email" value="exemplo@gmail.com">
+            </div>
+
+            <div>
+                <label for="uf">Unidade da Federação</label>
+                SP <input type="radio" name="uf" value="SP">
+                MG <input type="radio" name="uf" value="MG" checked>
+                RJ <input type="radio" name="uf" value="RJ">
+                ES <input type="radio" name="uf" value="ES">
+            </div>
+
+            <div>
+                <label>Informe onde comprou o produto: </label>
+                <input type="checkbox" name="online" id="online" value="Loja Online">
+                <label for="online">Loja Online</label>
+
+                <input type="checkbox" name="fisica" id="fisica" value="Loja Física">
+                <label for="fisica">Loja Física</label>
+
+                <input type="checkbox" name="revendedor" id="revendedor" value="Revendedor">
+                <label for="revendedor">Revendedor</label>
+            </div>
+
+            <div>
+                <textarea name="mensagem"  cols="70" rows="10" placeholder="Escreva a sua mensagem!" required></textarea>
+            </div>
+
+            <div>
+                <label for="password">Informe a senha:</label>
+                <input type="password" name="password" placeholder="Informa a senha">
+            </div>
+
+            <div>
+                <label for="tipo">Tipo de Mensagem</label>
+                <select name="tipo" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="critica">Crítica</option>
+                        <option value="elogio">Elogio</option>
+                </select>
+            </div>
+
+            <button type="submit" name="submit">Enviar</button>
+        </form>
+</body>
+</html>
