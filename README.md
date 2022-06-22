@@ -1,4 +1,5 @@
 meu primeiro projeto
+<<<<<<< HEAD
 algum conteúdo
-linha nova
-
+=======
+>>>>>>> 67ba47ce4a0a70bdcb04fb32db4e55a48b69206e
